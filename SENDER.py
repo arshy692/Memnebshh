@@ -90,9 +90,6 @@ if __name__ == "__main__":
     '''
     authMain1 = "M1L2P3O4I5U6Y7 "
     print(stytext)
-    authinp = input("Enter the authorization key: ")
     
-    if authMain == authinp or authMain1 == authinp:
-        asyncio.run(main())
-    else:
-        print(f"{Fore.RED}Invalid auth key!!\nExiting.....")
+  asyncio.run(main())
+    
